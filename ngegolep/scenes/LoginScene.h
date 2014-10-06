@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  LoginScene.h
 //  ngegolep
 //
 //  Created by Rukmono Erwan on 9/24/14.
@@ -8,8 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface LoginScene : UIViewController
 
-@property (strong, nonatomic) IBOutlet UIWebView *welcomeWebView;
+
+- (IBAction)noLoginWarning:(id)sender;
 
 @end

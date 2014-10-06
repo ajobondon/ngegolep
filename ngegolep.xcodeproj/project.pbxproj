@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE49B45D19D3DC0F007FADAF /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AE49B45C19D3DC0F007FADAF /* libsqlite3.dylib */; };
+		AE49B46019D3DCA8007FADAF /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49B45F19D3DCA8007FADAF /* DBManager.m */; };
+		AE49B46719D404A6007FADAF /* ngegolep.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = AE49B46619D404A6007FADAF /* ngegolep.sqlite */; };
+		AE49B46D19D406B0007FADAF /* PlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49B46C19D406B0007FADAF /* PlayerScene.m */; };
+		AE49B47019D40862007FADAF /* AddPlayerScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AE49B46F19D40862007FADAF /* AddPlayerScene.m */; };
 		AEBB3CAB19D2A9FF00143F61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CAA19D2A9FF00143F61 /* main.m */; };
 		AEBB3CAE19D2A9FF00143F61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CAD19D2A9FF00143F61 /* AppDelegate.m */; };
 		AEBB3CB119D2A9FF00143F61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CB019D2A9FF00143F61 /* ViewController.m */; };
@@ -14,6 +19,8 @@
 		AEBB3CB619D2A9FF00143F61 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBB3CB519D2A9FF00143F61 /* Images.xcassets */; };
 		AEBB3CB919D2A9FF00143F61 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AEBB3CB719D2A9FF00143F61 /* LaunchScreen.xib */; };
 		AEBB3CC519D2A9FF00143F61 /* ngegolepTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CC419D2A9FF00143F61 /* ngegolepTests.m */; };
+		AEBB3CD119D2B3B300143F61 /* LoginScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CD019D2B3B300143F61 /* LoginScene.m */; };
+		AEBB3CD419D2C23C00143F61 /* CourseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBB3CD319D2C23C00143F61 /* CourseScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +34,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AE49B45C19D3DC0F007FADAF /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		AE49B45E19D3DCA8007FADAF /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = db/DBManager.h; sourceTree = "<group>"; };
+		AE49B45F19D3DCA8007FADAF /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = db/DBManager.m; sourceTree = "<group>"; };
+		AE49B46619D404A6007FADAF /* ngegolep.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ngegolep.sqlite; sourceTree = "<group>"; };
+		AE49B46B19D406B0007FADAF /* PlayerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlayerScene.h; path = scenes/PlayerScene.h; sourceTree = "<group>"; };
+		AE49B46C19D406B0007FADAF /* PlayerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayerScene.m; path = scenes/PlayerScene.m; sourceTree = "<group>"; };
+		AE49B46E19D40862007FADAF /* AddPlayerScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AddPlayerScene.h; path = scenes/AddPlayerScene.h; sourceTree = "<group>"; };
+		AE49B46F19D40862007FADAF /* AddPlayerScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AddPlayerScene.m; path = scenes/AddPlayerScene.m; sourceTree = "<group>"; };
 		AEBB3CA519D2A9FF00143F61 /* ngegolep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ngegolep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBB3CA919D2A9FF00143F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBB3CAA19D2A9FF00143F61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +55,10 @@
 		AEBB3CBE19D2A9FF00143F61 /* ngegolepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ngegolepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBB3CC319D2A9FF00143F61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AEBB3CC419D2A9FF00143F61 /* ngegolepTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ngegolepTests.m; sourceTree = "<group>"; };
+		AEBB3CCF19D2B3B300143F61 /* LoginScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoginScene.h; path = scenes/LoginScene.h; sourceTree = "<group>"; };
+		AEBB3CD019D2B3B300143F61 /* LoginScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoginScene.m; path = scenes/LoginScene.m; sourceTree = "<group>"; };
+		AEBB3CD219D2C23C00143F61 /* CourseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CourseScene.h; path = scenes/CourseScene.h; sourceTree = "<group>"; };
+		AEBB3CD319D2C23C00143F61 /* CourseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CourseScene.m; path = scenes/CourseScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE49B45D19D3DC0F007FADAF /* libsqlite3.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,6 +80,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE49B46119D3DCAD007FADAF /* db */ = {
+			isa = PBXGroup;
+			children = (
+				AE49B46619D404A6007FADAF /* ngegolep.sqlite */,
+				AE49B45E19D3DCA8007FADAF /* DBManager.h */,
+				AE49B45F19D3DCA8007FADAF /* DBManager.m */,
+			);
+			name = db;
+			sourceTree = "<group>";
+		};
 		AEBB3C9C19D2A9FF00143F61 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +111,8 @@
 		AEBB3CA719D2A9FF00143F61 /* ngegolep */ = {
 			isa = PBXGroup;
 			children = (
+				AE49B46119D3DCAD007FADAF /* db */,
+				AEBB3CCE19D2B34300143F61 /* scenes */,
 				AEBB3CAC19D2A9FF00143F61 /* AppDelegate.h */,
 				AEBB3CAD19D2A9FF00143F61 /* AppDelegate.m */,
 				AEBB3CAF19D2A9FF00143F61 /* ViewController.h */,
@@ -96,6 +128,7 @@
 		AEBB3CA819D2A9FF00143F61 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AE49B45C19D3DC0F007FADAF /* libsqlite3.dylib */,
 				AEBB3CA919D2A9FF00143F61 /* Info.plist */,
 				AEBB3CAA19D2A9FF00143F61 /* main.m */,
 			);
@@ -117,6 +150,21 @@
 				AEBB3CC319D2A9FF00143F61 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AEBB3CCE19D2B34300143F61 /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				AE49B46B19D406B0007FADAF /* PlayerScene.h */,
+				AE49B46C19D406B0007FADAF /* PlayerScene.m */,
+				AE49B46E19D40862007FADAF /* AddPlayerScene.h */,
+				AE49B46F19D40862007FADAF /* AddPlayerScene.m */,
+				AEBB3CCF19D2B3B300143F61 /* LoginScene.h */,
+				AEBB3CD019D2B3B300143F61 /* LoginScene.m */,
+				AEBB3CD219D2C23C00143F61 /* CourseScene.h */,
+				AEBB3CD319D2C23C00143F61 /* CourseScene.m */,
+			);
+			name = scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE49B46719D404A6007FADAF /* ngegolep.sqlite in Resources */,
 				AEBB3CB419D2A9FF00143F61 /* Main.storyboard in Resources */,
 				AEBB3CB919D2A9FF00143F61 /* LaunchScreen.xib in Resources */,
 				AEBB3CB619D2A9FF00143F61 /* Images.xcassets in Resources */,
@@ -219,9 +268,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE49B46D19D406B0007FADAF /* PlayerScene.m in Sources */,
 				AEBB3CB119D2A9FF00143F61 /* ViewController.m in Sources */,
 				AEBB3CAE19D2A9FF00143F61 /* AppDelegate.m in Sources */,
+				AEBB3CD419D2C23C00143F61 /* CourseScene.m in Sources */,
+				AE49B46019D3DCA8007FADAF /* DBManager.m in Sources */,
+				AEBB3CD119D2B3B300143F61 /* LoginScene.m in Sources */,
 				AEBB3CAB19D2A9FF00143F61 /* main.m in Sources */,
+				AE49B47019D40862007FADAF /* AddPlayerScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +466,7 @@
 				AEBB3CCA19D2A9FF00143F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AEBB3CCB19D2A9FF00143F61 /* Build configuration list for PBXNativeTarget "ngegolepTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +475,7 @@
 				AEBB3CCD19D2A9FF00143F61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

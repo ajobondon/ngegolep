@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    // Welcome web page
+    NSURL *welcomePage = [[NSURL alloc] initWithString:@"http://www.google.com/"];
+    NSURLRequest *webRequest = [[NSURLRequest alloc] initWithURL:welcomePage];
+    self.welcomeWebView.scalesPageToFit = YES;
+    [self.welcomeWebView loadRequest:webRequest];
+    
 }
 
 - (void)didReceiveMemoryWarning {
